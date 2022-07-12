@@ -11,7 +11,7 @@
 //BASE
 @import './base/common';
 
-//COMPONENTS
+// //COMPONENTS
 @import './components/container';
 @import './components/button';
 @import './components/social-media';
@@ -21,15 +21,16 @@
 @import './components/modal';
 @import './components/modal-read-more';
 
-//LAYOUT
+// //LAYOUT
 @import './layout/header';
 @import './layout/hero';
 @import './layout/products';
 @import './layout/about';
 @import './layout/advantages';
-@import './layout/gallery';
+
 @import './layout/customer-reviews';
 @import './layout/contacts';
 @import './layout/footer';
 @import './layout/mobile-window';
 @import './layout/scroll-up';
+@import './layout/gallery';

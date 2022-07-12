@@ -265,11 +265,11 @@
 	margin-left: 120px;
 	border-color: rgb(71, 24, 24);
 	border-radius: 50%;
-	background-image: url(/images/hero/arrow-right-tablet.jpg);
+	background-image: url(../images/hero/arrow-right-tablet.jpg);
 	background-size: cover;
 
 	@media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-		background-image: url(/images/hero/arrow-right-tablet@2x.jpg);
+		background-image: url(../images/hero/arrow-right-tablet@2x.jpg);
 	}
 
 	@media screen and (max-width: 767px) {
@@ -280,12 +280,12 @@
 		width: 26px;
 		height: 26px;
 		margin-left: 195px;
-		background-image: url(/images/hero/arrow-right-desktop.jpg);
+		background-image: url(../images/hero/arrow-right-desktop.jpg);
 
 		@media screen and (min-device-pixel-ratio: 2),
 			(min-resolution: 192dpi),
 			(min-resolution: 2dppx) {
-			background-image: url(/images/hero/arrow-right-desktop@2x.jpg);
+			background-image: url(../images/hero/arrow-right-desktop@2x.jpg);
 		}
 	}
 }

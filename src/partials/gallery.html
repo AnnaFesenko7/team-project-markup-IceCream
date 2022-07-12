@@ -1,14 +1,139 @@
 <section class="gallery" id="gallery">
-    <h2 class="visually-hidden">Наша галерея</h2>
-    <div class="container">
-        <picture>
-          <source media="(min-width: 1080px)" srcset="images/gallery/gallery-desktop.jpg 1x, 
-          images/gallery/gallery-desktop@2x.jpg 2x" type="image/jpg">
-          <source media="(min-width: 768px)" srcset="images/gallery/gallery-tablet.jpg 1x, 
-          images/gallery/gallery-tablet@2x.jpg 2x" type="image/jpg">
-          <source media="(min-width: 320px)" srcset="images/gallery/gallery-mobile.jpg 1x, 
-          images/gallery/gallery-mobile@2x.jpg 2x" type="image/jpg">
-          <img src="images/gallery/gallery-mobile.jpg" class="gallery__picture" loading="lazy" alt="gallery"/>
-        </picture>
-    </div>
+  <h2 class="visually-hidden">Gallery</h2>
+  <div class="container">
+    <ul class="gallery__list">
+      <li class="gallery__item box1">
+        <img
+          id="1"
+          class="gallery__image"
+          src="./images/gallery/1.jpg"
+          alt="ice cream"
+        />
+      </li>
+      <li class="gallery__item box2">
+        <img
+          id="2"
+          class="gallery__image"
+          src="./images/gallery/2.jpg"
+          alt="ice cream"
+        />
+      </li>
+      <li class="gallery__item box3">
+        <img
+          id="3"
+          class="gallery__image"
+          src="./images/gallery/3.jpg"
+          alt="ice cream"
+        />
+      </li>
+
+      <li class="gallery__item box4">
+        <img
+          id="4"
+          class="gallery__image"
+          src="./images/gallery/4.jpg"
+          alt="ice cream"
+        />
+      </li>
+      <li class="gallery__item box5">
+        <img
+          id="5"
+          class="gallery__image"
+          src="./images/gallery/5.jpg"
+          alt="ice cream"
+        />
+      </li>
+      <li class="gallery__item box7">
+        <img
+          id="7"
+          class="gallery__image"
+          src="./images/gallery/7.jpg"
+          alt="ice cream"
+        />
+      </li>
+
+      <li class="gallery__item box6">
+        <img
+          id="6"
+          class="gallery__image"
+          src="./images/gallery/6.jpg"
+          alt="ice cream"
+        />
+      </li>
+
+      <li class="gallery__item box8">
+        <img
+          id="8"
+          class="gallery__image"
+          src="./images/gallery/8.jpg"
+          alt="ice cream"
+        />
+      </li>
+
+      <li class="gallery__item box9">
+        <img
+          id="9"
+          class="gallery__image"
+          src="./images/gallery/9.jpg"
+          alt="ice cream"
+        />
+      </li>
+      <li class="gallery__item box10">
+        <img
+          id="10"
+          class="gallery__image"
+          src="./images/gallery/10.jpg"
+          alt="ice cream"
+        />
+      </li>
+      <li class="gallery__item box11">
+        <img
+          id="11"
+          class="gallery__image"
+          src="./images/gallery/11.jpg"
+          alt="ice cream "
+        />
+      </li>
+
+      <li class="gallery__item box12">
+        <img
+          id="12"
+          class="gallery__image"
+          src="./images/gallery/12.jpg"
+          alt="ice cream "
+        />
+      </li>
+
+      <li class="gallery__item box13">
+        <img
+          id="13"
+          class="gallery__image"
+          src="./images/gallery/13.jpg"
+          alt="ice cream"
+        />
+      </li>
+
+      <li class="gallery__item box15">
+        <img
+          id="15"
+          class="gallery__image"
+          src="./images/gallery/15.jpg"
+          alt="ice cream"
+        />
+      </li>
+      <li class="gallery__item box14">
+        <img
+          id="14"
+          class="gallery__image"
+          src="./images/gallery/14.jpg"
+          alt="ice cream "
+        />
+      </li>
+    </ul>
+  </div>
+
+  <div data-gallery-modal class="backdrop is-hidden">
+    <div class="gallery-modal-container" data-gallery-modal-container></div>
+    <!-- </div> -->
+  </div>
 </section>
