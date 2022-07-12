@@ -2,20 +2,20 @@
   "name": "gallery",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://AnnaFesenko7.github.io/gallery",
+  "homepage": "https://AnnaFesenko7.github.io/team-project-markup-IceCream",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /gallery/"
+    "build": "parcel build src/*.html --public-url /team-project-markup-IceCream/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AnnaFesenko7/gallery.git"
+    "url": "git+https://github.com/AnnaFesenko7/team-project-markup-IceCream.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AnnaFesenko7/gallery/issues"
+    "url": "https://github.com/AnnaFesenko7/team-project-markup-IceCream/issues"
   },
   "dependencies": {
     "@parcel/resolver-glob": "^2.6.0",
